@@ -2,8 +2,11 @@
 FROM table_name;*/
 /**/
 SELECT * FROM film_category;
+
 SELECT category_id FROM film_category; /*gives us all the category_id for all rows and it includes repetition in ascending order*/
+
 SELECT DISTINCT category_id FROM film_category; /*gives us category ids without repetition in ascending order*/
+
 SELECT COUNT(DISTINCT category_id) FROM film_category;/*gives us the count of the distinct category ids*/
 
 select * FROM inventory; 
