@@ -1,5 +1,7 @@
 SELECT * FROM sakila.actor;
 
+#note to self: while uploading, make sure u use the delte command and run and upload comments
+
 # Points to remember:
 # 1. Always check the schema of the table before entering the data, because SQL won't show any error whiel inserting, but if we use the data later for computation, it might show us errors.
 # 2. Date time values should always be enclosed within a single quotes ''
